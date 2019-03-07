@@ -1,0 +1,29 @@
+body {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url('../img/background.jpg');
+    background-attachment: fixed;
+}
+
+.obal {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+h2 {
+    font-size: 1.2em;
+    color: rgb(red, green, blue);
+    margin-bottom: 1em;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 1.4em;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+    font-weight: 500;
+    border-bottom: 1px solid black;
+    padding-bottom: 0.5em;
+}
