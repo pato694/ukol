@@ -9,6 +9,7 @@
     <meta name="description" content="Pokud Vás zajímá slavná série Harry Potter, tak na téhle stránce naleznete základní informace o filmových verzích téhle série.">
 
     <!-- Bootstrap CSS -->
+    <link href="lightbox2-master/dist/css/lightbox.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
@@ -25,10 +26,26 @@
             <div class="row obal pb-5 pt-5">
                 <div class="col-sm-12 col-md-3">
                     <h2>HLAVNÍ POSTAVY</h2>
-                    <img class="pb-5" src="img/harry.png" alt="Harry Potter">
-                    <img class="pb-5" src="img/hermiona.jpg" alt="Hermiona">
-                    <img class="pb-5 pl-5" src="img/ron.png" alt="Ron">
-                    <img class="pb-5 pl-5" src="img/voldemort.png" alt="Lord Voldemord">
+                    <div>
+                        <a href="img/harry.png" data-lightbox="image-1" data-title="Harry Potter">
+                            <img class="pb-5" src="img/harry.png" alt="Harry Potter">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="img/hermiona.jpg" data-lightbox="image-1" data-title="Hermiona">
+                            <img class="pb-5" src="img/hermiona.jpg" alt="Hermiona">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="img/ron.png" data-lightbox="image-1" data-title="Ron">
+                            <img class="pb-5 pl-5" src="img/ron.png" alt="Ron">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="img/voldemort.png" data-lightbox="image-1" data-title="Lord Voldemord">
+                            <img class="pb-5 pl-5" src="img/voldemort.png" alt="Lord Voldemord">
+                        </a>
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-5 pt-5">
                     <br>
@@ -63,7 +80,6 @@
                 </div>
                 <br>
                 <div class="col-sm-12 col-md-4">
-                    <h2>ZAJÍMAVOSTI</h2>
                     <section id="misto">
                         <h3>Místa kde se natáčelo</h3>
                         <div>
@@ -84,25 +100,102 @@
                         <button>Další zajímavost</button>
                     </section>
                     <section class="pt-5">
-                        <h3>Články</h3> 
-                        <li><a href="https://www.databazeknih.cz/autori/joanne-kathleen-rowling-6">Více knížek od J.K.
+                        <h3>Články</h3>
+                        <li><a href="https://www.databazeknih.cz/autori/joanne-kathleen-rowling-6" target="_blank">Více
+                                knížek od J.K.
                                 Rowlingové</a></li>
-                        <li><a href="https://milujemeharryho.jex.cz/menu/bradavice-a-koleje">Seznam bradavických kolejí
+                        <li><a href="https://milujemeharryho.jex.cz/menu/bradavice-a-koleje" target="_blank">Seznam
+                                bradavických kolejí
                                 a jejich znaky</a></li>
-                        <li><a href="https://www.kukatko.cz/filmy-harryho-pottera-od-nejslabsiho-po-nejlepsi/">Žebříček
+                        <li><a href="https://www.kukatko.cz/filmy-harryho-pottera-od-nejslabsiho-po-nejlepsi/" target="_blank">Žebříček
                                 filmů od nejslabšího po nejlepší</a></li>
-                        <li><a href="https://filmkult.refresher.cz/6127-Warner-Bros-nam-odhalilo-jak-se-natacel-Harry-Potter-sceny-v-Bradavicich-a-jake-prakticke-efekty-pouzili">Jak
+                        <li><a href="https://filmkult.refresher.cz/6127-Warner-Bros-nam-odhalilo-jak-se-natacel-Harry-Potter-sceny-v-Bradavicich-a-jake-prakticke-efekty-pouzili"
+                                target="_blank">Jak
                                 se Harry Potter natáčel</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=pWKz8GLiZc8" target="_blank">Více zajímavostí z
+                                filmů</a></li>
                     </section>
+                </div>
+                <div class="col-sm-12 col-md-6" id="filmy">
+                    <h4><b>Harry Potter a Kámen mudrců</b></h4>
+                    <p>Celý příběh Kamene Mudrců se točí kolem sirotka Harryho Pottera. Tomu krátce po narození zahynou
+                        za neobvyklých událostí oba rodiče, a Harry proto musí vyrůstat v rodině strýce Vernona a tety
+                        Petunie, kteří mu neustále dávají najevo, že místo kde bydlí, není domov. O to větší překvapení
+                        ho čeká, když mu v den jeho jedenáctých narozenin přijde dopis, který je předzvěstí změny v
+                        jeho dosavadním životě.</p>
+                    <h4><b>Harry Potter a Tajemná komnata</b></h4>
+                    <p>Harry se po prázdninách vrací do Bradavic a nastupuje do druhého ročníku. A to i přes
+                        varování domácího skřítka Dobbyho, podle kterého mu v čarodějné škole hrozí smrt. Harry nedbá
+                        nářků skřítka působícího víc škody než užitku, ale potom se skutečně začnou dít podivné věci,
+                        na stěnách se objevují neznámé nápisy a několik studentů je přepadeno tajemným přízrakem. Co s
+                        tím má společného Tajemná komnata?</p>
+                    <h4><b>Harry Potter a Vězeň z Azkabanu</b></h4>
+                    <p>Třináctiletý Harry znovu nerad tráví své další prázdniny u rodiny Dursleyových, letos
+                        navíc se zlou tetou Marge. I přes přísný zákaz používání kouzel jí Harry promění v obrovský
+                        balón a v noci uteče záchranným autobusem do hospody Děravý kotel. Zde se setká s ministrem
+                        kouzel Korneliem Popletalem, který ho překvapivě za jeho provinění nepotrestá. Je to proto, že
+                        z vězení v Azkabanu uprchl nebezpečný čaroděj Sirius Black, který podle legend přivedl lorda
+                        Voldemorta k Harryho rodičům a je tak zodpovědný za jejich smrt.</p>
+                    <h4><b>Harry Potter a Ohnivý pohár</b></h4>
+                    <p>Navzdory zlým snům, které ho nepřestávají pronásledovat, vydá se Harry s Weasleyovými na čtyřsté
+                        dvacáté druhé famfrpálové mistrovství světa. Slavnostní zahájení je velkolepé, v noci však kemp
+                        přepadne skupina maskovaných čarodějů, kteří vyvolávají paniku a na obloze vykouzlí obrovskou
+                        lebku s hadem v ústech. Znamení Voldemortovo. Je jasné, že se blíží temná doba. Je to zřejmé i
+                        z faktu, že se tu bude konat významný Turnaj tří kouzelníků, jehož vítěz získá Ohnivý pohár.</p>
+                </div>
+                <div class="col-sm-12 col-md-6" id="filmy">
+                    <h4><b>Harry Potter a Fénixův řád</b></h4>
+                    <p>Harry Potter se vrací do Bradavic, aby nastoupil do pátého ročníku školy čar a kouzel. Tam však
+                        zjistí, že většina členů kouzelnické komunity věří, že jeho nedávné setkání s Lordem
+                        Voldemortem je obyčejný výmysl, čímž je zásadně zpochybněna Harryho důvěryhodnost. Ba co hůř,
+                        ministr kouzel Kornelius Popletal opět jmenoval nového učitele obrany proti černé magii. V
+                        lekcích podezřelé profesorky Umbridgeové se však mladí čarodějové nic zásadního nenaučí a proto
+                        nemají dostatek znalostí k boji s temnými silami, které se kolem nich stahují. Na Hermioninu a
+                        Ronovu výzvu se Harry rozhodne vzít chod věcí do svých rukou.</p>
+                    <h4><b>Harry Potter a princ dvojí krve</b></h4>
+                    <p>Povzbuzeni návratem Lorda Voldemorta působí Smrtijedi spoušť jak ve světě mudlů, tak ve světě
+                        kouzelníků a Bradavice už dávno nejsou tím bezpečným místem, jakým kdysi bývaly. Harry má
+                        podezření, že nebezpečí je přímo v Bradavicích, ale Brumbál se soustředí na přípravu na
+                        poslední bitvu, která se rychle blíží. Potřebuje, aby mu Harry pomohl odkrýt důležitý klíč,
+                        který vede k rozuzlení Voldemortovy obrany – rozhodující informaci ale zná jen bývalý
+                        bradavický profesor Horác Křiklan. </p>
+                    <h4><b>Harry Potter a Relikvie smrti - část 1</b></h4>
+                    <p>První část začíná, když se Harry, Ron a Hermiona vydávají na nebezpečnou misi, jejímž cílem je
+                        najít a zničit tajemství Voldemortovy nesmrtelnosti - viteály. Spoléhat musí jen sami na sebe,
+                        a to víc, než kdy dříve, protože jim už profesoři nepomohou a budou také bez ochrany profesora
+                        Brumbála. Navíc jsou mezi nimi temné síly, které se je snaží rozdělit. Mezitím se svět
+                        kouzelníků stane nebezpečným místem pro všechny nepřátele Pána zla.</p>
+                    <h4><b>Harry Potter a Relikvie smrti - část 2</b></h4>
+                    <p>Poslední dobrodružství ságy o Harry Potterovi. V tomto výpravném finále eskaluje bitva mezi
+                        dobrem a zlem do otevřené války čarodějného světa. Nikdy nebylo v sázce tolik jako teď. Nikdo
+                        už není v bezpečí. Je to ale Harry Potter, kdo možná bude muset podstoupit oběť největší, když
+                        se přiblíží rozhodující bitva s Lordem Voldemortem. Tady všechno končí ...</p>
                 </div>
             </div>
         </div>
     </main>
     <footer>
-
+        <div class="obal">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12">
+                        <h5 class="text-primary text-uppercase mb-4 pt-3">Kontakt na autora</h5>
+                        <hr>
+                        <div>
+                            <p><b>Vojtěch Dohnal</b></p>
+                            <p><b>E-mail: dohnalvojta2@seznam.cz</b></p>
+                            <p><strong>Github:</strong> <a href="https://github.com/pato694" target="_blank">https://github.com/pato694</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--<strong>Github:</strong> <a href="https://github.com/pato694" target="_blank">https://github.com/pato694</a> -->
     </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="lightbox2-master/dist/js/lightbox.min.js"></script>
+    <script src="lightbox2-master/dist/js/lightbox-plus-jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
