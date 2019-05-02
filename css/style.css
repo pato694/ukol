@@ -41,3 +41,9 @@ hr {
     border-color:black;
     display: block;
 }
+
+svg {
+    margin-top: -400px;
+    margin-left: -430px;
+    margin-bottom: -400px;
+}
