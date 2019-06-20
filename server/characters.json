@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "name": "Daniel",
+    "surname": "Radcliffe",
+    "character": "Harry Potter",
+    "year": "1989"
+  },
+  {
+    "id": 2,
+    "name": "Emma",
+    "surname": "Watson",
+    "character": "Hermiona Grangerová",
+    "year": "1990"
+  },
+  {
+    "id": 3,
+    "name": "Richard",
+    "surname": "Harris",
+    "character": "Albus Brumbál",
+    "year": "1930"
+  },
+  {
+    "id": 4,
+    "name": "Maggie",
+    "surname": "Smithová",
+    "character": "Minerva McGonagallová",
+    "year": "1934"
+  },
+  {
+    "id": 5,
+    "name": "Robbie",
+    "surname": "Coltrane",
+    "character": "Rubeus Hagrid",
+    "year": "1950"
+  },
+  {
+    "id": 6,
+    "name": "Richard",
+    "surname": "Harris",
+    "character": "Albus Brumbál",
+    "year": "1930",
+    "content": "Čus"
+  }
+]
